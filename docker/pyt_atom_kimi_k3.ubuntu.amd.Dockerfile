@@ -24,7 +24,7 @@
 # SOFTWARE.
 #
 #################################################################################
-ARG BASE_DOCKER=rocm/atom-dev:latest
+ARG BASE_DOCKER=rocm/atom-dev:nightly_202608171540
 FROM $BASE_DOCKER
 
 USER root
